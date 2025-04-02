@@ -9,11 +9,11 @@ A full-stack logistics management system to track, manage, and optimize supply c
 
 ```
 .
-├── SMART_SUPPLY_CHAIN_PROJECT/
+├── SMART_SUPPLY_CHAIN_PHASE_1/
 │   ├── stock-dashboard-backend/       # Phase 1 Backend (Node.js + PostgreSQL)
 │   ├── stock-dashboard-frontend/      # Phase 1 Frontend (React + Vite)
 │
-├── SMART_SUPPLY_CHAIN_PROJECT_PHASE2/
+├── SMART_SUPPLY_CHAIN_PHASE2/
 │   ├── stock-dashboard-backend/       # Phase 2 Backend
 │   ├── stock-dashboard-frontend/      # Phase 2 Frontend
 ```
@@ -49,7 +49,7 @@ A full-stack logistics management system to track, manage, and optimize supply c
 
 3. Create a `.env` file:
    ```env
-   PORT=5001
+   PORT=5000
    PG_HOST=localhost
    PG_PORT=5432
    PG_USER=your_pg_username
@@ -97,7 +97,7 @@ A full-stack logistics management system to track, manage, and optimize supply c
 
 3. Create `.env`:
    ```env
-   PORT=5002
+   PORT=5001
    PG_HOST=localhost
    PG_PORT=5432
    PG_USER=your_pg_username
@@ -141,6 +141,7 @@ SMART_SUPPLY_CHAIN_Phase_1/stock-dashboard-backend/prediction/predict_inventory.
 Install requirements:
 ```bash
 pip install pandas scikit-learn psycopg2-binary
+pip install statsmodels python-dotenv
 ```
 
 ---
@@ -198,6 +199,15 @@ npm run dev
 cd SMART_SUPPLY_CHAIN_PHASE2/stock-dashboard-frontend
 npm run dev
 ```
+or 
+cd SMART_SUPPLY_CHAIN_Phase_1 
+npm i concurrently
+npm run dev
+
+cd SMART_SUPPLY_CHAIN_PHASE2
+npm i concurrently
+npm run dev
+
 
 ---
 
