@@ -200,14 +200,17 @@ cd SMART_SUPPLY_CHAIN_PHASE2/stock-dashboard-frontend
 npm run dev
 ```
 or 
+```bash
+# Terminal 1 - Phase 1
 cd SMART_SUPPLY_CHAIN_Phase_1 
 npm i concurrently
 npm run dev
 
+# Terminal 1 - Phase 2
 cd SMART_SUPPLY_CHAIN_PHASE2
 npm i concurrently
 npm run dev
-
+```
 
 ---
 
