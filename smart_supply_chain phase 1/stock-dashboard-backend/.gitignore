@@ -1,0 +1,57 @@
+# Logs and system files
+*.log
+*.out
+*.lock
+*.pid
+*.seed
+*.csv
+*.sqlite
+*.sqlite3
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+.vscode/
+*.code-workspace
+
+node_modules/
+./node_modules
+../node_modules
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+build/
+coverage/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+Pipfile.lock
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Cache files
+.cache/
+.vite/
+
+*.sqlite
+*.db
+*.mdb
+*.sql
+*.dump
